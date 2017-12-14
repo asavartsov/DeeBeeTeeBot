@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeeBeeTeeBot.Form", "TelegramBot\DeeBeeTeeBot.Form.csproj", "{8893DA07-0CED-4933-B396-54BBDBA8A507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeeBeeTeeBot.Logic", "TelegramBot.Logic\DeeBeeTeeBot.Logic.csproj", "{B7B9EC7D-E53B-4880-B1FF-D951EB5A04B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61A95350-9A6F-4F11-800A-0F3EA79BBB65}"
+	ProjectSection(SolutionItems) = preProject
+		docs\BotInfo.txt = docs\BotInfo.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8893DA07-0CED-4933-B396-54BBDBA8A507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8893DA07-0CED-4933-B396-54BBDBA8A507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8893DA07-0CED-4933-B396-54BBDBA8A507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8893DA07-0CED-4933-B396-54BBDBA8A507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B9EC7D-E53B-4880-B1FF-D951EB5A04B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B9EC7D-E53B-4880-B1FF-D951EB5A04B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B9EC7D-E53B-4880-B1FF-D951EB5A04B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B9EC7D-E53B-4880-B1FF-D951EB5A04B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C2C028B-A627-46A2-9BB6-E19287F4FD9E}
+	EndGlobalSection
+EndGlobal
